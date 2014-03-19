@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8647DCAF153D626100525FCE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8647DCAE153D626100525FCE /* Cocoa.framework */; };
+		8647DCB9153D626100525FCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8647DCB7153D626100525FCE /* InfoPlist.strings */; };
+		8647DCBB153D626100525FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647DCBA153D626100525FCE /* main.m */; };
+		8647DCBF153D626100525FCE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8647DCBD153D626100525FCE /* Credits.rtf */; };
+		8647DCC2153D626100525FCE /* lrxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647DCC1153D626100525FCE /* lrxAppDelegate.m */; };
+		8647DCC5153D626200525FCE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8647DCC3153D626200525FCE /* MainMenu.xib */; };
+		8647DCCD153D626200525FCE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8647DCCC153D626200525FCE /* SenTestingKit.framework */; };
+		8647DCCE153D626200525FCE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8647DCAE153D626100525FCE /* Cocoa.framework */; };
+		8647DCD6153D626200525FCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8647DCD4153D626200525FCE /* InfoPlist.strings */; };
+		8647DCD9153D626200525FCE /* OutlookPersonalStoreConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647DCD8153D626200525FCE /* OutlookPersonalStoreConverterTests.m */; };
+		8647DCE7153D631F00525FCE /* readpst in Resources */ = {isa = PBXBuildFile; fileRef = 8647DCE4153D631F00525FCE /* readpst */; };
+		86FFF7321540138700E45257 /* lrxDropZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FFF7311540138700E45257 /* lrxDropZoneView.m */; };
+		86FFF73A15404DB400E45257 /* dropzone_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 86FFF73615404DB400E45257 /* dropzone_error.png */; };
+		86FFF73B15404DB400E45257 /* dropzone_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 86FFF73715404DB400E45257 /* dropzone_hover.png */; };
+		86FFF73C15404DB400E45257 /* dropzone_mbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 86FFF73815404DB400E45257 /* dropzone_mbox.png */; };
+		86FFF73D15404DB400E45257 /* dropzone.png in Resources */ = {isa = PBXBuildFile; fileRef = 86FFF73915404DB400E45257 /* dropzone.png */; };
+		86FFF73F15406DE800E45257 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86FFF73E15406DE800E45257 /* icon.png */; };
+		86FFF74115406DEC00E45257 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86FFF74015406DEC00E45257 /* icon.png */; };
+		86FFF74315406F1E00E45257 /* pst2mbox.icns in Resources */ = {isa = PBXBuildFile; fileRef = 86FFF74215406F1E00E45257 /* pst2mbox.icns */; };
+		86FFF74515406F3B00E45257 /* pst2mbox.icns in Resources */ = {isa = PBXBuildFile; fileRef = 86FFF74415406F3A00E45257 /* pst2mbox.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8647DCCF153D626200525FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8647DCA1153D626100525FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8647DCA9153D626100525FCE;
+			remoteInfo = OutlookPersonalStoreConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8647DCAA153D626100525FCE /* OutlookPersonalStoreConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutlookPersonalStoreConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8647DCAE153D626100525FCE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8647DCB1153D626100525FCE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8647DCB2153D626100525FCE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8647DCB3153D626100525FCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8647DCB6153D626100525FCE /* OutlookPersonalStoreConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OutlookPersonalStoreConverter-Info.plist"; sourceTree = "<group>"; };
+		8647DCB8153D626100525FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8647DCBA153D626100525FCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8647DCBC153D626100525FCE /* OutlookPersonalStoreConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OutlookPersonalStoreConverter-Prefix.pch"; sourceTree = "<group>"; };
+		8647DCBE153D626100525FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8647DCC0153D626100525FCE /* lrxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lrxAppDelegate.h; sourceTree = "<group>"; };
+		8647DCC1153D626100525FCE /* lrxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lrxAppDelegate.m; sourceTree = "<group>"; };
+		8647DCC4153D626200525FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8647DCCB153D626200525FCE /* OutlookPersonalStoreConverterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutlookPersonalStoreConverterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8647DCCC153D626200525FCE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8647DCD3153D626200525FCE /* OutlookPersonalStoreConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OutlookPersonalStoreConverterTests-Info.plist"; sourceTree = "<group>"; };
+		8647DCD5153D626200525FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8647DCD7153D626200525FCE /* OutlookPersonalStoreConverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutlookPersonalStoreConverterTests.h; sourceTree = "<group>"; };
+		8647DCD8153D626200525FCE /* OutlookPersonalStoreConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutlookPersonalStoreConverterTests.m; sourceTree = "<group>"; };
+		8647DCE4153D631F00525FCE /* readpst */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = readpst; sourceTree = "<group>"; };
+		86FFF7301540138700E45257 /* lrxDropZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lrxDropZoneView.h; sourceTree = "<group>"; };
+		86FFF7311540138700E45257 /* lrxDropZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lrxDropZoneView.m; sourceTree = "<group>"; };
+		86FFF73615404DB400E45257 /* dropzone_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropzone_error.png; sourceTree = "<group>"; };
+		86FFF73715404DB400E45257 /* dropzone_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropzone_hover.png; sourceTree = "<group>"; };
+		86FFF73815404DB400E45257 /* dropzone_mbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropzone_mbox.png; sourceTree = "<group>"; };
+		86FFF73915404DB400E45257 /* dropzone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropzone.png; sourceTree = "<group>"; };
+		86FFF73E15406DE800E45257 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		86FFF74015406DEC00E45257 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		86FFF74215406F1E00E45257 /* pst2mbox.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = pst2mbox.icns; sourceTree = "<group>"; };
+		86FFF74415406F3A00E45257 /* pst2mbox.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = pst2mbox.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8647DCA7153D626100525FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647DCAF153D626100525FCE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8647DCC7153D626200525FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647DCCD153D626200525FCE /* SenTestingKit.framework in Frameworks */,
+				8647DCCE153D626200525FCE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8647DC9F153D626100525FCE = {
+			isa = PBXGroup;
+			children = (
+				86FFF74415406F3A00E45257 /* pst2mbox.icns */,
+				86FFF74015406DEC00E45257 /* icon.png */,
+				8647DCE8153D632B00525FCE /* 3rd Party Binaries */,
+				8647DCB4153D626100525FCE /* OutlookPersonalStoreConverter */,
+				8647DCD1153D626200525FCE /* OutlookPersonalStoreConverterTests */,
+				8647DCAD153D626100525FCE /* Frameworks */,
+				8647DCAB153D626100525FCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8647DCAB153D626100525FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8647DCAA153D626100525FCE /* OutlookPersonalStoreConverter.app */,
+				8647DCCB153D626200525FCE /* OutlookPersonalStoreConverterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8647DCAD153D626100525FCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8647DCAE153D626100525FCE /* Cocoa.framework */,
+				8647DCCC153D626200525FCE /* SenTestingKit.framework */,
+				8647DCB0153D626100525FCE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8647DCB0153D626100525FCE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8647DCB1153D626100525FCE /* AppKit.framework */,
+				8647DCB2153D626100525FCE /* CoreData.framework */,
+				8647DCB3153D626100525FCE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8647DCB4153D626100525FCE /* OutlookPersonalStoreConverter */ = {
+			isa = PBXGroup;
+			children = (
+				8647DCC0153D626100525FCE /* lrxAppDelegate.h */,
+				8647DCC1153D626100525FCE /* lrxAppDelegate.m */,
+				8647DCC3153D626200525FCE /* MainMenu.xib */,
+				8647DCB5153D626100525FCE /* Supporting Files */,
+				86FFF7301540138700E45257 /* lrxDropZoneView.h */,
+				86FFF7311540138700E45257 /* lrxDropZoneView.m */,
+			);
+			path = OutlookPersonalStoreConverter;
+			sourceTree = "<group>";
+		};
+		8647DCB5153D626100525FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86FFF74215406F1E00E45257 /* pst2mbox.icns */,
+				86FFF73E15406DE800E45257 /* icon.png */,
+				86FFF73615404DB400E45257 /* dropzone_error.png */,
+				86FFF73715404DB400E45257 /* dropzone_hover.png */,
+				86FFF73815404DB400E45257 /* dropzone_mbox.png */,
+				86FFF73915404DB400E45257 /* dropzone.png */,
+				8647DCB6153D626100525FCE /* OutlookPersonalStoreConverter-Info.plist */,
+				8647DCB7153D626100525FCE /* InfoPlist.strings */,
+				8647DCBA153D626100525FCE /* main.m */,
+				8647DCBC153D626100525FCE /* OutlookPersonalStoreConverter-Prefix.pch */,
+				8647DCBD153D626100525FCE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8647DCD1153D626200525FCE /* OutlookPersonalStoreConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8647DCD7153D626200525FCE /* OutlookPersonalStoreConverterTests.h */,
+				8647DCD8153D626200525FCE /* OutlookPersonalStoreConverterTests.m */,
+				8647DCD2153D626200525FCE /* Supporting Files */,
+			);
+			path = OutlookPersonalStoreConverterTests;
+			sourceTree = "<group>";
+		};
+		8647DCD2153D626200525FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8647DCD3153D626200525FCE /* OutlookPersonalStoreConverterTests-Info.plist */,
+				8647DCD4153D626200525FCE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8647DCE8153D632B00525FCE /* 3rd Party Binaries */ = {
+			isa = PBXGroup;
+			children = (
+				8647DCE4153D631F00525FCE /* readpst */,
+			);
+			name = "3rd Party Binaries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8647DCA9153D626100525FCE /* OutlookPersonalStoreConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8647DCDC153D626200525FCE /* Build configuration list for PBXNativeTarget "OutlookPersonalStoreConverter" */;
+			buildPhases = (
+				8647DCA6153D626100525FCE /* Sources */,
+				8647DCA7153D626100525FCE /* Frameworks */,
+				8647DCA8153D626100525FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutlookPersonalStoreConverter;
+			productName = OutlookPersonalStoreConverter;
+			productReference = 8647DCAA153D626100525FCE /* OutlookPersonalStoreConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8647DCCA153D626200525FCE /* OutlookPersonalStoreConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8647DCDF153D626200525FCE /* Build configuration list for PBXNativeTarget "OutlookPersonalStoreConverterTests" */;
+			buildPhases = (
+				8647DCC6153D626200525FCE /* Sources */,
+				8647DCC7153D626200525FCE /* Frameworks */,
+				8647DCC8153D626200525FCE /* Resources */,
+				8647DCC9153D626200525FCE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8647DCD0153D626200525FCE /* PBXTargetDependency */,
+			);
+			name = OutlookPersonalStoreConverterTests;
+			productName = OutlookPersonalStoreConverterTests;
+			productReference = 8647DCCB153D626200525FCE /* OutlookPersonalStoreConverterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8647DCA1153D626100525FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = lrx;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8647DCA4153D626100525FCE /* Build configuration list for PBXProject "OutlookPersonalStoreConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8647DC9F153D626100525FCE;
+			productRefGroup = 8647DCAB153D626100525FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8647DCA9153D626100525FCE /* OutlookPersonalStoreConverter */,
+				8647DCCA153D626200525FCE /* OutlookPersonalStoreConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8647DCA8153D626100525FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647DCB9153D626100525FCE /* InfoPlist.strings in Resources */,
+				8647DCBF153D626100525FCE /* Credits.rtf in Resources */,
+				8647DCC5153D626200525FCE /* MainMenu.xib in Resources */,
+				8647DCE7153D631F00525FCE /* readpst in Resources */,
+				86FFF73A15404DB400E45257 /* dropzone_error.png in Resources */,
+				86FFF73B15404DB400E45257 /* dropzone_hover.png in Resources */,
+				86FFF73C15404DB400E45257 /* dropzone_mbox.png in Resources */,
+				86FFF73D15404DB400E45257 /* dropzone.png in Resources */,
+				86FFF73F15406DE800E45257 /* icon.png in Resources */,
+				86FFF74115406DEC00E45257 /* icon.png in Resources */,
+				86FFF74315406F1E00E45257 /* pst2mbox.icns in Resources */,
+				86FFF74515406F3B00E45257 /* pst2mbox.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8647DCC8153D626200525FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647DCD6153D626200525FCE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8647DCC9153D626200525FCE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8647DCA6153D626100525FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647DCBB153D626100525FCE /* main.m in Sources */,
+				8647DCC2153D626100525FCE /* lrxAppDelegate.m in Sources */,
+				86FFF7321540138700E45257 /* lrxDropZoneView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8647DCC6153D626200525FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8647DCD9153D626200525FCE /* OutlookPersonalStoreConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8647DCD0153D626200525FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8647DCA9153D626100525FCE /* OutlookPersonalStoreConverter */;
+			targetProxy = 8647DCCF153D626200525FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8647DCB7153D626100525FCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8647DCB8153D626100525FCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8647DCBD153D626100525FCE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8647DCBE153D626100525FCE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8647DCC3153D626200525FCE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8647DCC4153D626200525FCE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8647DCD4153D626200525FCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8647DCD5153D626200525FCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8647DCDA153D626200525FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8647DCDB153D626200525FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8647DCDD153D626200525FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OutlookPersonalStoreConverter/OutlookPersonalStoreConverter-Prefix.pch";
+				INFOPLIST_FILE = "OutlookPersonalStoreConverter/OutlookPersonalStoreConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8647DCDE153D626200525FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OutlookPersonalStoreConverter/OutlookPersonalStoreConverter-Prefix.pch";
+				INFOPLIST_FILE = "OutlookPersonalStoreConverter/OutlookPersonalStoreConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8647DCE0153D626200525FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OutlookPersonalStoreConverter.app/Contents/MacOS/OutlookPersonalStoreConverter";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OutlookPersonalStoreConverter/OutlookPersonalStoreConverter-Prefix.pch";
+				INFOPLIST_FILE = "OutlookPersonalStoreConverterTests/OutlookPersonalStoreConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8647DCE1153D626200525FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OutlookPersonalStoreConverter.app/Contents/MacOS/OutlookPersonalStoreConverter";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OutlookPersonalStoreConverter/OutlookPersonalStoreConverter-Prefix.pch";
+				INFOPLIST_FILE = "OutlookPersonalStoreConverterTests/OutlookPersonalStoreConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8647DCA4153D626100525FCE /* Build configuration list for PBXProject "OutlookPersonalStoreConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8647DCDA153D626200525FCE /* Debug */,
+				8647DCDB153D626200525FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8647DCDC153D626200525FCE /* Build configuration list for PBXNativeTarget "OutlookPersonalStoreConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8647DCDD153D626200525FCE /* Debug */,
+				8647DCDE153D626200525FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8647DCDF153D626200525FCE /* Build configuration list for PBXNativeTarget "OutlookPersonalStoreConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8647DCE0153D626200525FCE /* Debug */,
+				8647DCE1153D626200525FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8647DCA1153D626100525FCE /* Project object */;
+}
